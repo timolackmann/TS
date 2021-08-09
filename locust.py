@@ -9,7 +9,7 @@ class Mongo:
     conn = ""
 
     def __init__(self):
-        cs = "mongodb+srv://main_user:Timsp128@locust.8o5sy.mongodb.net/myFirstDatabase"
+        cs = "mongodb+srv://xxxxx"
         self.conn = MongoClient(cs, connect=False)
         id = ''
     def get_conn(self):
