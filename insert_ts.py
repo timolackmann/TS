@@ -3,7 +3,7 @@ from datetime import date, datetime, timedelta
 from sample_data import SampleIOTDevice
 
 client = MongoClient(
-    'mongodb+srv://main_user:Timsp128@testcluster.8o5sy.mongodb.net')
+    'mongodb+srv://xx')
 db = client['POVTS']
 
 
